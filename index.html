@@ -1,0 +1,90 @@
+<index.html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Speed Syndicate - Photo Editing & Framing</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #ff6600; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; margin: 20px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; }
+        form { max-width: 600px; margin: 0 auto; }
+        input, textarea, button { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #ff6600; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #e65c00; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>The Speed Syndicate</h1>
+        <p>Photo Editing & Framing Services</p>
+        <p>Designed by Akash tiwari- Biker, Traveler, and Motovlogger. Capturing stories from the road. Every ride, every frame reflects a deep love for the passion.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#order">Order Online</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to The Speed Syndicate</h2>
+        <p>We specialize in custom photo editing and framing, inspired by the thrill of the road. Turn your photos into stunning artworks like our signature biker posters featuring KTM motorcycles, helmets, and dynamic graffiti elements.</p>
+        <!-- You can add an image here: <img src="path/to/your-poster.jpg" alt="The Speed Syndicate Poster" style="max-width:100%;"> -->
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Photo Editing:</strong> Enhance your images with professional edits – color correction, effects, graffiti overlays, and more. Perfect for motovlogs, travel shots, or personal memories.</li>
+            <li><strong>Framing:</strong> Custom frames for your edited photos. Choose from various styles, sizes, and materials to match your vibe.</li>
+            <li><strong>Custom Designs:</strong> Bike-themed posters, syndicate-style artwork, and personalized prints.</li>
+        </ul>
+        <p>Pricing starts at $20 for basic editing and $50 for framing (varies by size and complexity).</p>
+    </section>
+
+    <section id="order">
+        <h2>Place Your Order Online</h2>
+        <form action="https://formspree.io/f/your-email" method="POST"> <!-- Replace with your form endpoint -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="photo-editing">Photo Editing</option>
+                <option value="framing">Framing</option>
+                <option value="both">Both</option>
+                <option value="custom">Custom Design</option>
+            </select>
+
+            <label for="description">Description of Your Request:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+
+            <label for="file">Upload Photo (if applicable):</label>
+            <input type="file" id="file" name="file">
+
+            <button type="submit">Submit Order</button>
+        </form>
+        <p>We'll get back to you via email with a quote and next steps.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Follow and message us on Instagram: <a href="https://www.instagram.com/the_speed_syndicate" target="_blank">@the_speed_syndicate</a></p>
+        <p>For inquiries, DM us or email at info@akashtiwari8366@gmail.com  9554287675 (set up your email).</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 The Speed Syndicate. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
